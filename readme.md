@@ -1,14 +1,14 @@
 # ⚽ World Cup 2026 EDA
 
-A data science companion piece to my [World Cup 2026 Group Stage Tracker](https://github.com/jimmy-ai2) — this time digging into the data behind nearly a century of World Cup history, and what's actually different about the tournament's first-ever 48-team format.
+A data science companion piece to my [World Cup 2026 Group Stage Tracker](https://github.com/jimmy-ai2) — digging into the data behind nearly a century of World Cup history, and what was actually different about the tournament's first-ever 48-team format.
 
-This is my first data science project, moving from frontend development into exploratory data analysis with Python and pandas.
+This was my first data science project, moving from frontend development into exploratory data analysis with Python and pandas.
 
 ## 📊 Overview
 
-- Explores 21 World Cup editions from 1930 to 2022, plus the 2026 tournament as it unfolds
+- Explores 21 World Cup editions from 1930 to 2022, plus the complete 2026 tournament
 - Covers historical trends (scoring, attendance, tournament size, host advantage), a Golden Boot angle, and a deep dive into the new 48-team format
-- Includes a living "Results So Far" section that gets updated as the 2026 knockout stage progresses — this isn't a one-time snapshot, it's built to grow alongside the tournament
+- Includes a full knockout-stage results log — built and updated round by round as the 2026 tournament played out, from Round of 32 through the Final
 
 ## 🛠️ Tools & Libraries
 
@@ -35,20 +35,24 @@ This is my first data science project, moving from frontend development into exp
 5. **Golden Boot Angle** — top scorer trends and their relationship to team performance
 6. **The 48-Team Era** — confederation breakdown and FIFA rank spread across groups
 7. **Group Stage Deep Dive** — competitiveness gaps within groups, debut nations
-8. **Results So Far** _(updated as the tournament progresses)_ — knockout stage results, added round by round
-9. **Wrap-up / Key Takeaways** — pre-tournament findings and in-progress observations
+8. **Results So Far** — full 2026 knockout stage results (Round of 32 → Final), built up round by round as the tournament progressed
+9. **Wrap-up / Key Takeaways** — pre-tournament findings and a full knockout-stage summary
 
 ## 🔍 Key Takeaways
 
 - Attendance has grown considerably since 1930, peaking in 1994
 - Home advantage doesn't guarantee a win — host nations have won the tournament far less often than "home advantage" might suggest
 - Scoring rates (both per match and top-scorer tallies) have cooled since the WWII-era tournaments
-- The 2026 expansion to 48 teams has opened doors for debut nations, mostly from AFC and CONCACAF
-- The Round of 32 has already produced major shocks — including Germany's elimination on penalties
+- The 2026 expansion to 48 teams opened doors for debut nations, mostly from AFC and CONCACAF
+- The knockout stage delivered real drama: 9 of 32 matches (28%) went beyond 90 minutes, Germany and Brazil both exited earlier than expected, and Morocco's underdog run carried them to the Quarter-finals
+- **Spain won the 2026 World Cup**, beating Argentina 1-0 in extra time in the Final; England took third place
 
-## 🔄 Live Updates
+## 🏆 Final Results
 
-Since the 2026 tournament is still in progress, Section 8 is updated after each completed knockout round rather than treated as finished. Check the notebook's "Added: [date]" markers for the most recent update.
+- **Champions:** Spain
+- **Runners-up:** Argentina
+- **Third place:** England
+- **Fourth place:** France
 
 ## 🔗 Links
 
